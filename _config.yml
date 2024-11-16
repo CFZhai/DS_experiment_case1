@@ -1,0 +1,17 @@
+lite:
+  # Include additional content (custom CSS, JS, etc.)
+  contents:
+    # - path: static/custom.css
+    - path: static/custom.js
+
+  # Optional: Customize JupyterLite settings
+  # jupyter_config_data:
+  #   "@jupyterlab/apputils-extension:settings":
+  #     layout: {
+  #       "defaultWorkspace": "/lab/workspaces/auto?reset",
+  #       "openWith": "notebook"
+  #     }
+
+  # # Optional: Enable interface switcher (to toggle between Notebook and Lab)
+  # interface_switcher:
+  #   enabled: true
